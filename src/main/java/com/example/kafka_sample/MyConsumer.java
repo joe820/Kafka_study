@@ -9,6 +9,7 @@ import java.util.Properties;
 
 public class MyConsumer {
     public static void main(String[] args) {
+        //Consumer 설정세팅
         Properties properties = new Properties();
 
         String serverConfig = "192.168.56.128:9092";
