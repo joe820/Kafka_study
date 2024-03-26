@@ -1,4 +1,4 @@
-package com.example.kafka_sample;
+package com.example.kafka_sample.Service;
 
 import org.apache.kafka.clients.producer.KafkaProducer;
 import org.apache.kafka.clients.producer.Producer;
@@ -15,7 +15,7 @@ public class MyProducer {
         /* Producer 설정세팅 */
         Properties properties = new Properties();
 
-        String serverConfig = "192.168.56.128:9092";
+        String serverConfig = "169.254.100.100:9092";//"192.168.56.128:9092";
         properties.put(ProducerConfig.BOOTSTRAP_SERVERS_CONFIG, serverConfig);
         properties.put(ProducerConfig.KEY_SERIALIZER_CLASS_CONFIG, StringSerializer.class.getName());
         properties.put(ProducerConfig.VALUE_SERIALIZER_CLASS_CONFIG, StringSerializer.class.getName());

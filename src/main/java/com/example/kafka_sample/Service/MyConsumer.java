@@ -1,4 +1,4 @@
-package com.example.kafka_sample;
+package com.example.kafka_sample.Service;
 
 import org.apache.kafka.clients.consumer.*;
 import org.apache.kafka.common.serialization.StringDeserializer;
@@ -12,7 +12,7 @@ public class MyConsumer {
         //Consumer 설정세팅
         Properties properties = new Properties();
 
-        String serverConfig = "192.168.56.128:9092";
+        String serverConfig = "169.254.100.100:9092";
         properties.put(ConsumerConfig.BOOTSTRAP_SERVERS_CONFIG, serverConfig);
         properties.put(ConsumerConfig.KEY_DESERIALIZER_CLASS_CONFIG, StringDeserializer.class.getName());
         properties.put(ConsumerConfig.VALUE_DESERIALIZER_CLASS_CONFIG, StringDeserializer.class.getName());

@@ -1,4 +1,4 @@
-package com.example.kafka_sample;
+package com.example.kafka_sample.VO;
 
 public class KafkaMsgVO {
     private String name;
