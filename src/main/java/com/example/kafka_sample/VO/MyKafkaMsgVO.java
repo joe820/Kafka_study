@@ -1,6 +1,6 @@
 package com.example.kafka_sample.VO;
 
-public class KafkaMsgVO {
+public class MyKafkaMsgVO {
     private String name;
     private String msg;
 

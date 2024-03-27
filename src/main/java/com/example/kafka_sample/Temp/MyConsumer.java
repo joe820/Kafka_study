@@ -1,4 +1,4 @@
-package com.example.kafka_sample.Service;
+package com.example.kafka_sample.Temp;
 
 import org.apache.kafka.clients.consumer.*;
 import org.apache.kafka.common.serialization.StringDeserializer;
